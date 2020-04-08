@@ -1,0 +1,16 @@
+John ist der Administrator der "Smile" Apotheke. Er braucht eine Anwendung, um den Vorrat an Medikamente
+seiner Apotheke zu verwalten. Jede Medikation wird auf folgende Weise gespeichert: Name, Konzentration, Menge
+und Preis. John möchte, dass seine neue Anwendung ihm auf folgende Weise hilft:
+1. Er möchte ein Medikament hinzufügen, löschen oder bearbeiten können. Ein Medikament wird durch seinen
+Name und seine Konzentration eindeutig identifiziert. Falls ein vorhandenes Produkt hinzugefügt wird, wird
+nur seine Menge aktualisiert.
+2. Er möchte alle verfügbaren Medikamente sehen, die eine bestimmte Zeichenkette (String) enthalten (falls
+die String leer ist, werden alle verfügbaren Medikamente zurückgeben), sortiert nach Name.
+3. Er möchte nur die Medikamente sehen, die knapp sind (Menge weniger als X Punkte, wobei der Wert von X
+von John angegeben wird).
+4. Er möchte alle Medikamente nach Preis gruppiert sehen.
+5. Die Anwendung muss verkettete Undo/Redo Funktionalität bieten.
+● Die ganze Anwendung muss modularisiert werden (domain, repository, controller, ui);
+● Jede Funktionalität wird getestet;
+● Code sollte klar sein und einfach zu verstanden;
+● In-Line Kommentare und Methoden Kommentar sind notwendig
